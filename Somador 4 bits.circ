@@ -98,28 +98,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(80,140)" to="(80,260)"/>
     <wire from="(110,90)" to="(110,150)"/>
     <wire from="(200,90)" to="(200,150)"/>
-    <comp lib="0" loc="(250,90)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A1"/>
-    </comp>
     <comp lib="0" loc="(250,120)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B1"/>
     </comp>
-    <comp lib="7" loc="(290,180)" name="Somador completo">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(380,210)" name="Pin">
+    <comp lib="0" loc="(200,210)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
+      <a name="label" val="S2"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(110,210)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S3"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(160,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="7" loc="(380,180)" name="Somador completo">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(330,170)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="7" loc="(110,180)" name="Somador completo">
-      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(160,120)" name="Pin">
       <a name="tristate" val="false"/>
@@ -129,6 +133,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="A0"/>
     </comp>
+    <comp lib="7" loc="(110,180)" name="Somador completo">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(380,210)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="7" loc="(290,180)" name="Somador completo">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(70,90)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A3"/>
@@ -136,35 +152,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="7" loc="(200,180)" name="Somador completo">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="0" loc="(70,120)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B3"/>
+    </comp>
     <comp lib="0" loc="(290,210)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
+      <a name="label" val="S1"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(200,210)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(160,90)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A2"/>
     </comp>
     <comp lib="0" loc="(340,120)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B0"/>
     </comp>
-    <comp lib="0" loc="(110,210)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(70,120)" name="Pin">
+    <comp lib="0" loc="(250,90)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B3"/>
-    </comp>
-    <comp lib="7" loc="(380,180)" name="Somador completo">
-      <a name="facing" val="south"/>
+      <a name="label" val="A1"/>
     </comp>
   </circuit>
 </project>
