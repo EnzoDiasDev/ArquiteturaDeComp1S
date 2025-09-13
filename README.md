@@ -1,3 +1,3 @@
-# Aula-lab_30.04.25_Logisim_ARQCS1
+# ArquiteturaDeComp1S
 
-A pasta "Aula-lab_30.04.25_Logisim_ARQCS1-main" estão todos os projetos finais, com entregas e o restante dos circuitos.
+A pasta "ArquiteturaDeComp1S" estão todos os projetos finais, com entregas e o restante dos circuitos.
